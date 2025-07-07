@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تشخیص شیشه دودی خودرو</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>تشخیص درصد شیشه دودی</h1>
+  <p>لطفاً یک تصویر از خودرو خود آپلود کنید:</p>
+  <input type="file" id="imageUpload" accept="image/*">
+  <br><br>
+  <img id="preview" src="#" alt="پیش‌نمایش تصویر" style="display:none; max-width:90%;">
+  <br><br>
+  <button onclick="analyzeTint()">تحلیل شیشه‌ها</button>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
